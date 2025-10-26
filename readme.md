@@ -18,8 +18,6 @@ qa-junior-playwright-api/
 └── README.md
 ````
 
-````
-
 ### Descrição dos Arquivos
 
 - `users.spec.ts` → Cria um usuário, valida GET, atualiza dados, deleta usuário e confirma exclusão.
