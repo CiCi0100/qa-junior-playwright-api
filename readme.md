@@ -1,14 +1,12 @@
 
-```markdown
+
 # Automação de Testes de API - GoREST (Playwright)
 
 Este projeto contém automações de testes de API usando **Playwright** em TypeScript, cobrindo os endpoints públicos da API [GoREST](https://gorest.co.in/). Ele realiza testes completos de **CRUD** para Usuários, Posts e Comentários, validando **status code**, **estrutura dos dados** e garantindo que os registros criados existam no GET subsequente.
 
 ---
-
+```markdown
 ## Estrutura do Projeto
-
-```
 
 qa-junior-playwright-api/
 ├── tests/
@@ -18,6 +16,7 @@ qa-junior-playwright-api/
 ├── package.json
 ├── playwright.config.ts
 └── README.md
+````
 
 ````
 
