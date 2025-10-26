@@ -1,3 +1,4 @@
+
 ```markdown
 # Automação de Testes de API - GoREST (Playwright)
 
@@ -32,25 +33,25 @@ qa-junior-playwright-api/
 
 Para cada endpoint, os testes seguem o fluxo **CRUD completo**:
 
-1. **CREATE** → Criação do recurso com dados válidos e únicos.
-2. **READ (GET)** → Confirma que o recurso existe após a criação.
-3. **UPDATE (PUT)** → Atualização de todos os campos relevantes e validação das alterações.
-4. **DELETE** → Exclusão do recurso e validação de que não existe mais (`GET` retorna 404).
+1. **CREATE** → Criação do recurso com dados válidos e únicos.  
+2. **READ (GET)** → Confirma que o recurso existe após a criação.  
+3. **UPDATE (PUT)** → Atualização de todos os campos relevantes e validação das alterações.  
+4. **DELETE** → Exclusão do recurso e validação de que não existe mais (`GET` retorna 404).  
 
 Além disso, os testes validam:
 
-- **Status code** correto em todas as operações.
-- **Estrutura dos dados** retornados (`id`, `name`, `email`, `title`, `body`, `post_id`, `user_id`, `status`, etc.).
-- **Integridade de dependências** (ex: comentário só é criado se existir post e usuário).
+- **Status code** correto em todas as operações.  
+- **Estrutura dos dados** retornados (`id`, `name`, `email`, `title`, `body`, `post_id`, `user_id`, `status`, etc.).  
+- **Integridade de dependências** (ex: comentário só é criado se existir post e usuário).  
 
 ---
 
 ## Pré-requisitos
 
-- Node.js v18+ instalado
-- NPM ou Yarn
-- Token de acesso GoREST válido (https://gorest.co.in/)
-- Playwright instalado
+- Node.js v18+ instalado  
+- NPM ou Yarn  
+- Token de acesso GoREST válido (https://gorest.co.in/)  
+- Playwright instalado  
 
 ---
 
